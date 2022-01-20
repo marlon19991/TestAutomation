@@ -47,7 +47,7 @@ public class Tests {
     public void pruebaUno() {
         WebDriverManager.setWindowSize(driver, "maximized");
         WebDriverManager.setWindowSize(driver, 400, 400);
-        driver.switchTo().window(tabs.get(1)).navigate().to("http://www.youtube.com");
+        driver.switchTo().window(tabs.get(1)).navigate().to("http://www.youtfffu5rwerewrbe.com");
         driver.switchTo().window(tabs.get(0));
         PageLogin pagelogin = new PageLogin(driver);
         PageLogon pageLogon = new PageLogon(driver);
